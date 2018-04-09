@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Matchup Insights</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
+        <script src="css/styles.css"></script>
+        <script src="scripts/containers.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header style="background-color: darkgrey">
+                <h1>March Madness Insights</h1>
+            </header>
+
+            <div class="comparer">
+                <div class="picker">
+                    <select id="t1" onchange="ChangeTeamList()">
+                        <option value="">-- Team 1 --</option>
+                        <option value="um">Michigan</option>
+                        <option value="fsu">Florida State</option>
+                        <option value="tam">Texas A&M</option>
+                        <option value="zaga">Gonzaga</option>
+                      </select>
+
+                      <span>VS</span>
+
+                    <select id="t2"></select>
+
+                    <br/>
+                    <button>Compare</button>
+                </div>
+
+                <div class="teams-container">
+                    <div class="teams">
+                        <div id="team1stats" style="background-color:darkgrey">
+                            <p style="color:white">Leading Scorer Stats</p>
+                        </div>
+            
+                        <div id="team2stats" style="background-color:darkgrey">
+                            <p style="color:white">Leading Scorer</p>
+                        </div>
+                    </div>
+
+                    <div id="teamcomparison" style="background-color:darkgrey">
+                        <p style="color:white">Win Probability</p>
+                    </div>
+                </div>
+
+            <footer style="background-color:darkgrey">
+                <p style="color:white">Winter 2018 - CIS 443-01: Team 8</p>
+            </footer>
+        </div>
+    </body>
+</html>
