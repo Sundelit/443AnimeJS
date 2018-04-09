@@ -8,7 +8,6 @@ var preloader = (function(){
         btn = $('.enter'),
         page = $('.page');
     
-    
     return {
        
       run: function(){

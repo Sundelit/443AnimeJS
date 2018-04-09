@@ -1,16 +1,16 @@
 <!doctype html>
 <html>
     <head>
-        <title>Comparing Teams</title>
+        <title>Matchup Insights</title>
         <link rel="stylesheet" href="css/styles.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
         <script src="css/styles.css"></script>
-        <script src="scripts/scripts.js"></script>
+        <script src="scripts/containers.js"></script>
     </head>
     <body>
         <div class="container">
-            <header>
-                <h1>Teams Comparing App!</h1>
+            <header style="background-color: darkgrey">
+                <h1>March Madness Insights</h1>
             </header>
 
             <div class="comparer">
@@ -25,10 +25,10 @@
                       <span>VS</span>
 
                     <select id="t2">
-                        <option value="red">Team Red</option>
-                        <option value="green">Tean Green</option>
-                        <option value="white">Team White</option>
-                        <option value="black">Team Black</option>
+                        <option value="um">Michigan</option>
+                        <option value="fsu">Florida State</option>
+                        <option value="tam">Texas A&M</option>
+                        <option value="zaga">Gonzaga</option>
                     </select>
 
                     <br/>
@@ -37,23 +37,22 @@
 
                 <div class="teams-container">
                     <div class="teams">
-                        <div id="team1stats">
-                            <p>In here would be teams ones statistics</p>
+                        <div id="team1stats" style="background-color:darkgrey">
+                            <p style="color:white">In here would be teams ones statistics</p>
                         </div>
             
-                        <div id="team2stats">
-                            <p>In here would be team twos statisitics</p>
+                        <div id="team2stats" style="background-color:darkgrey">
+                            <p style="color:white">In here would be team twos statisitics</p>
                         </div>
                     </div>
 
-                    <div id="teamcomparison">
-                        <p>In here would compare there stats, saying which team is better at what etc.</p>
+                    <div id="teamcomparison" style="background-color:darkgrey">
+                        <p style="color:white">In here would compare there stats, saying which team is better at what etc.</p>
                     </div>
                 </div>
-            
 
-            <footer>
-                <p> &#169; Team 8</p>
+            <footer style="background-color:darkgrey">
+                <p style="color:white">Winter 2018 - CIS 443-01: Team 8</p>
             </footer>
         </div>
     </body>
